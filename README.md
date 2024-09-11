@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Lyrics
 
-## Getting Started
+You can check site by clicking [https://kyrylorusakov.github.io/nextjs-portfolio/](https://kyrylorusakov.github.io/nextjs-portfolio/)
 
-First, run the development server:
+This is a Next.js project that uses Framer motion for beautiful animations, and styled with TailwindCSS. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Next.js
+- Three.js
+- Framer Motion
+- Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 **Hero**: Captivating introduction featuring a spotlight effect and dynamic background.
 
-## Learn More
+👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
 
-To learn more about Next.js, take a look at the following resources:
+👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+👉 **Work Experience**: Prominent display of professional background for emphasis and credibility.
 
-## Deploy on Vercel
+👉 **Canvas Effect**: Innovative use of HTML5 canvas to create visually striking effects in the "approaches" section.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+and many more, including code architecture and reusability 
+
+
+## System Requirements
+
+To get started with development, you need to install few tools
+
+1. git 
+   
+   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+
+   To check your version of git, run:
+
+   ```shell
+    git --version
+   ```
+
+2. node 
+   
+   `node` version 20 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+
+   To check your version of node, run:
+
+   ```shell
+    node --version
+   ```
+
+3. npm
+  
+   `npm` version 5.6.1 or higher. You will have it after you install node.
+
+   To check your version of npm, run:
+
+   ```shell
+    npm --version
+   ```
+
+## Setup
+
+To set up a development environment, please follow these steps:
+
+1. Clone the repo
+
+   ```shell
+    git clone https://github.com/KyryloRusakov/nextjs-portfolio.git
+   ```
+
+2. Install the dependencies
+   
+    ```shell
+     npm install
+    ```
+
+3. Run the app
+   
+    ```shell
+    npm run dev
+    ```
+
+    Project will be running in the browser.
+
+    Open [http://localhost:3000/nextjs-portfolio](http://localhost:3000/nextjs-portfolio) to view it in your browser.
